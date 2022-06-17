@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Categores extends Model
+{
+    use HasFactory;
+    protected $table =  'categores';
+    protected $fillable=['name'];
+
+}
